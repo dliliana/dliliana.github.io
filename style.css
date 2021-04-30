@@ -1,3 +1,9 @@
 h2 {
-    display:inline;
+    display: inline;
+    font-weight: normal;
+    font-family: Helvetica, sans-serif;
   }
+
+h1{
+    font-family: Helvetica, sans-serif;
+}
