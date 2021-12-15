@@ -17,7 +17,7 @@ var database = [
     {
         "id" : "3",
         "name":"glitch",
-        "url":"glitch.mp4",
+        "url":"glitchjo.mp4",
         "images":[],
         "desc":"Lórum ipse: a kulka hat a laminok gérges szaputra, bodás, szabizmus. Érgetsen a seregő nyezőre és tárzja az ott tányos cikéket. Amennyiben nem személyesen szédezné csujtnia a vezését, úgy posta után igálja judára szord vezését a „vezés dolda” sedelésen. A ragzás zsonnájával jelenleg recese koba badadaccal teli a tolf. Vális simintést és rezvest dúdik a hantony képítő és pityókony szutykony bogarából. A konyomós éjjeleg badadacba szűző varnomai és datott oldalt automatikusan hűsödi, de magában a badadacban tordás sztormok is vételgők. Szintén szernameseknek fáns, a csizmusszal rányos magsániák matálya. A padt kérlők kakájával ellentétben a kodák délyi kegyülete fejeszteg, a hatélyos vekében való fogatot jádás pertődés sötveszker nap vakó böröme."
     },
