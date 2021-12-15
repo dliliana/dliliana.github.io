@@ -144,10 +144,25 @@ body{
     position: relative;
 }
 
+#about_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:600px;
+}
+
 #aboutleiras{
     color: rgb(255, 255, 255);
     font-family: Josefin Sans;
     font-weight:bold;
+    font-size: 100px;
+}
+
+#aboutszoveg{
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-weight:lighter;
+    flex: 0 0 500px;
 }
 
 #contact{
@@ -172,4 +187,8 @@ li{
     text-align: justify;
     font-family: Josefin Sans;
     font-weight: lighter;
+}
+
+.bg-dark{
+    background-color: #1c1c1c!important;
 }

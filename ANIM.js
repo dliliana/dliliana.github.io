@@ -98,11 +98,12 @@ function grow(id){
 
     //bezárás ikon elhelyezése
     let tv_holder = document.getElementById('tvholder')
-    let x = document.createElement("h2")
+    let x = document.createElement("img")
     x.innerText = "X"
     x.setAttribute("id", "x")
+    x.setAttribute("src", "https://img.icons8.com/material-rounded/24/ffffff/delete-sign.png")
     x.onclick = empty_tv
-    x.style.color = 'blue';
+    //x.style.color = 'white';
     tv_holder.appendChild(x)
 
     //főkép vagy videó betöltése
