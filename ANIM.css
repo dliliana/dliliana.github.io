@@ -1,0 +1,121 @@
+#box {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    animation: resize_anim 4s;
+    animation-fill-mode: forwards;
+    z-index: 2000;
+}
+
+
+@keyframes resize_anim{
+    0% {
+    }
+    75%{
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+    }
+    100% {
+        top:5px;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+.pathline1 {
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width:4px;
+    animation: dash 3s ease-in;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1490;
+        opacity: 0;
+        stroke: #7e3ec2
+    }
+
+    30% {
+        stroke-dashoffset: 1490;
+        opacity: 1;
+        stroke: #7e3ec2
+    }
+
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke:white;
+    }
+}
+
+.pathline2{
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width:4px;
+    animation: dash2 3s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dash2 {
+   
+    0% {
+        stroke-dashoffset: 570;
+        opacity: 0;
+        stroke:  #e6d302;
+    }
+    30% {
+        opacity: 1;
+        stroke: #e6d302;
+    }
+
+    40% {
+        stroke-dashoffset: 570;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke:white;
+    }
+}
+
+.pathline3 {
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width:4px;
+    animation: dash3 3s ease-in;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes dash3 {
+    
+    0% {
+        stroke-dashoffset: 1810;
+        opacity: 0;
+        stroke: #4c63ea;
+    }
+    30% {
+        stroke-dashoffset: 1810;
+        opacity: 1;
+        stroke:#4c63ea;
+    }
+    
+    
+    100% {
+        stroke-dashoffset: 0;
+        stroke:white;
+    }
+}

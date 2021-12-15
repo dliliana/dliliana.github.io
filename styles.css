@@ -1,0 +1,175 @@
+body{
+    height:100%;
+    width:100%;
+    background-color: #1c1c1c;
+}
+
+.grid-item{
+    width: 800px;
+    height: 500px;
+}
+
+@font-face {
+    font-family:"Josefin Sans";
+    src: url("font/JosefinSans-Bold.ttf") format("truetype");
+    src: url("font/JosefinSans-Light.ttf") format("truetype");
+  }
+
+
+.nav-link{
+    font-family: Josefin Sans;
+    font-weight:bold;
+}
+
+#Projects:hover{
+    color: #4c63ea;
+    animation: hoverszin 8s infinite;
+}
+
+@keyframes hoverszin {
+    0%{
+        color:#4c63ea;
+    }
+    25%{
+        color: #7e3ec2;
+    }
+    50%{
+        color: #e6d302;
+    }
+    100%{
+        color: #4c63ea;
+    }
+}
+
+#About:hover{
+    color: #4c63ea;
+    animation: hoverszin 8s infinite;
+}
+
+#Projects {
+    color: rgba(255, 255, 255, 1);
+}
+
+#About {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+#top_block{
+    height: 50px;
+}
+
+
+#video{
+    width:100%;
+}
+
+
+#nav_cucc{
+    height: 50px;
+}
+
+#circles{
+    position:fixed;
+    right:0;
+    top:500px;
+    z-index: 2000;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+  }
+
+.fullcircle{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.fadein_nav{
+    animation: fadein_nav 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein_nav{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fadeout_nav{
+    animation: fadeout_nav 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeout_nav{
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.fadein{
+    animation: fadein_anim 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein_anim{
+    0% {
+        opacity: 0;
+    }
+    90%{
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#tv{
+    position: relative;
+    transition: all 1s;
+}
+
+#tvholder{
+    position: relative;
+}
+
+#aboutleiras{
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-weight:bold;
+}
+
+#contact{
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-weight:bold;
+}
+
+li{
+    cursor:pointer;
+}
+
+#x{
+    position:absolute;
+    top:0px;
+    right:10px;
+    cursor: pointer;
+}
+
+.description{
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    font-family: Josefin Sans;
+    font-weight: lighter;
+}
