@@ -42,4 +42,11 @@ var database = [
         "images":[],
         "desc":"henlo."
     },
+    {
+        "id" : "7",
+        "name":"generativKocka",
+        "url":"generativKocka.png",
+        "images":[],
+        "desc":"henlo."
+    },
 ]
